@@ -1,0 +1,92 @@
+.main {
+    padding: 30px;
+}
+.search-section {
+    margin: 30px;
+}
+.search-form {
+    padding: 20px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 15px;
+}
+.search-header {
+
+}
+.search-title {
+}
+.search-label {
+}
+.search-inputs {
+    display: flex;
+    gap: 30px;
+}
+.search-label {
+    font-size: 14px;
+}
+.search-input {
+    padding: 10px 20px;
+    border: 1px solid #333;
+    border-radius: 30px;
+}
+.search-btn {
+    padding: 10px 50px;
+    background-color: #48484885;
+    color: #333;
+    border-radius: 30px;
+    font-weight: 700;
+    transition: all .3s ease-in;
+}
+.search-btn:hover {
+    color: #2a3ac6;
+}
+.search-btn:active {
+    transform: translateY(15%);
+}
+.results {
+    padding: 30px;
+}
+.results-title {
+    padding: 30px;
+    font-size: 14px;
+}
+.results-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.result {
+    display: flex;
+    gap: 6px;
+    color: #000;
+}
+.taxon-group {
+    color: rgb(57, 92, 73);
+}
+.taxon-fam {
+    color: rgb(54, 70, 111);
+}
+.taxon-rank {
+    margin-right: 30px;
+}
+.taxon-name {
+    font-weight: 700;
+}
+.taxon-auct {
+    margin-right: 0;
+}
+.taxon-comma {
+}
+.taxon-data {
+}
+.taxon-lit-issue {
+}
+.taxon-vol {
+}
+.taxon-sep {
+}
+.taxon-pages {
+}
+.taxon-type {
+}

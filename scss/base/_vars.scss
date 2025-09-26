@@ -1,0 +1,33 @@
+:root {
+	--container-width: 1200px;
+	--container-padding: 15px;
+	--font-main: 'Manrope', sans-serif;
+	--font-accent: 'Manrope', sans-serif;
+	--font-titles: var(--font-accent);
+	--page-bg: #e7f0f3;
+	--text-color: #000;
+    --data-text-color: rgba(0, 0, 0, 0.6);
+	--accent: #ac182c;
+	--link-color: #0069ca;
+    --laptop-size: 1199px;
+	--tablet-size: 959px;
+	--mobile-size: 599px;
+    --container-mini: 630px;
+    --post-bg: #fff;
+    --label-color: #000;
+    --post-prev-border-color: rgba(0, 0, 0, 0.3);
+}
+.dark {
+    --page-bg: #1f1f1f;
+    --text-color: #efefef;
+    --post-bg: #313131;
+    --data-text-color: rgba(255, 255, 255, 0.6);
+	--link-color: #399af3;
+    --label-color: #6886ed;
+    --post-prev-border-color: rgba(255, 255, 255, 0.3);
+}
+// @include mobile {
+//     :root {
+//         --container-mini: 100%;
+//     }
+// }
