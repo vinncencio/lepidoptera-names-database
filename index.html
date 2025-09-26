@@ -26,20 +26,25 @@
         </div>
     </header>
     <main class="main">
+        <section class="section-desc">
+            <p class="description">База данных таксономических названий чешуекрылых насекомых (Lepidoptera Taxon Names Database).</p>
+        </section>
         <section class="search-section">
-            <div class="search-header">поиск таксонов</div>
+            <div class="search-header">поиск таксонов / taxon search</div>
             <form action="" class="search-form">
                 <div class="search-title">
-                    <label for="search-taxon" class="search-label">введите название:</label>
+                    <label for="search-taxon" class="search-label">введите название / input the name:</label>
                 </div>
                 <div class="search-inputs">
                     <input name="search-taxon" type="text" class="search-input" />
-                    <button class="search-btn">search</button>
+                    <button class="search-btn">найти / search</button>
                 </div>
             </form>
         </section>
         <section class="results">
-            <div class="results-title">найденные таксоны:</div>
+            <div class="results-title">результаты поиска : 
+                <span class="results-text">найденные таксоны</span>
+            </div>
             <div class="results-wrapper">
                 <a class="result" data-number="01" href="#!">
                     <span class="taxon-group">GROUP</span>
